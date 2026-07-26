@@ -1,0 +1,26 @@
+import { RateItem } from '../types';
+
+export const GLOBAL_RATES: RateItem[] = [
+  { country: 'United States', flag: '🇺🇸', code: '+1', iso: 'US', landlineRate: 0.008, mobileRate: 0.012, qualityScore: 99.4, carrier: 'Verizon / AT&T Tier-1', region: 'North America' },
+  { country: 'United Kingdom', flag: '🇬🇧', code: '+44', iso: 'GB', landlineRate: 0.012, mobileRate: 0.024, qualityScore: 98.9, carrier: 'BT / Vodafone Direct', region: 'Europe' },
+  { country: 'Canada', flag: '🇨🇦', code: '+1', iso: 'CA', landlineRate: 0.009, mobileRate: 0.011, qualityScore: 99.2, carrier: 'Rogers / Bell Direct', region: 'North America' },
+  { country: 'Japan', flag: '🇯🇵', code: '+81', iso: 'JP', landlineRate: 0.021, mobileRate: 0.045, qualityScore: 99.6, carrier: 'NTT Docomo / Softbank', region: 'Asia Pacific' },
+  { country: 'Germany', flag: '🇩🇪', code: '+49', iso: 'DE', landlineRate: 0.015, mobileRate: 0.032, qualityScore: 98.5, carrier: 'Deutsche Telekom HQ', region: 'Europe' },
+  { country: 'France', flag: '🇫🇷', code: '+33', iso: 'FR', landlineRate: 0.014, mobileRate: 0.029, qualityScore: 98.7, carrier: 'Orange Tier-1', region: 'Europe' },
+  { country: 'India', flag: '🇮🇳', code: '+91', iso: 'IN', landlineRate: 0.019, mobileRate: 0.022, qualityScore: 97.8, carrier: 'Airtel / Jio Direct', region: 'Asia Pacific' },
+  { country: 'Australia', flag: '🇦🇺', code: '+61', iso: 'AU', landlineRate: 0.018, mobileRate: 0.035, qualityScore: 98.9, carrier: 'Telstra Premium', region: 'Asia Pacific' },
+  { country: 'Brazil', flag: '🇧🇷', code: '+55', iso: 'BR', landlineRate: 0.025, mobileRate: 0.058, qualityScore: 96.2, carrier: 'Vivo / Claro HQ', region: 'Latin America' },
+  { country: 'Nigeria', flag: '🇳🇬', code: '+234', iso: 'NG', landlineRate: 0.089, mobileRate: 0.095, qualityScore: 94.5, carrier: 'MTN / Glo Direct', region: 'Africa' },
+  { country: 'China', flag: '🇨🇳', code: '+86', iso: 'CN', landlineRate: 0.022, mobileRate: 0.028, qualityScore: 97.1, carrier: 'China Telecom', region: 'Asia Pacific' },
+  { country: 'Mexico', flag: '🇲🇽', code: '+52', iso: 'MX', landlineRate: 0.016, mobileRate: 0.028, qualityScore: 97.4, carrier: 'Telcel Direct', region: 'Latin America' },
+  { country: 'South Africa', flag: '🇿🇦', code: '+27', iso: 'ZA', landlineRate: 0.035, mobileRate: 0.068, qualityScore: 96.0, carrier: 'Vodacom SA', region: 'Africa' },
+  { country: 'United Arab Emirates', flag: '🇦🇪', code: '+971', iso: 'AE', landlineRate: 0.120, mobileRate: 0.150, qualityScore: 98.2, carrier: 'Etisalat / du', region: 'Middle East' },
+  { country: 'Singapore', flag: '🇸🇬', code: '+65', iso: 'SG', landlineRate: 0.011, mobileRate: 0.015, qualityScore: 99.8, carrier: 'Singtel Ultra HQ', region: 'Asia Pacific' },
+  { country: 'Spain', flag: '🇪🇸', code: '+34', iso: 'ES', landlineRate: 0.014, mobileRate: 0.031, qualityScore: 98.4, carrier: 'Telefonica', region: 'Europe' },
+  { country: 'Italy', flag: '🇮🇹', code: '+39', iso: 'IT', landlineRate: 0.016, mobileRate: 0.036, qualityScore: 98.1, carrier: 'TIM Telecom Italia', region: 'Europe' },
+  { country: 'South Korea', flag: '🇰🇷', code: '+82', iso: 'KR', landlineRate: 0.019, mobileRate: 0.038, qualityScore: 99.5, carrier: 'SK Telecom', region: 'Asia Pacific' },
+  { country: 'Switzerland', flag: '🇨🇭', code: '+41', iso: 'CH', landlineRate: 0.022, mobileRate: 0.052, qualityScore: 99.7, carrier: 'Swisscom', region: 'Europe' },
+  { country: 'Netherlands', flag: '🇳🇱', code: '+31', iso: 'NL', landlineRate: 0.013, mobileRate: 0.028, qualityScore: 99.1, carrier: 'KPN Telecom', region: 'Europe' },
+  { country: 'Philippines', flag: '🇵🇭', code: '+63', iso: 'PH', landlineRate: 0.082, mobileRate: 0.098, qualityScore: 95.8, carrier: 'PLDT / Globe', region: 'Asia Pacific' },
+  { country: 'Kenya', flag: '🇰🇪', code: '+254', iso: 'KE', landlineRate: 0.075, mobileRate: 0.088, qualityScore: 95.2, carrier: 'Safaricom Direct', region: 'Africa' },
+];

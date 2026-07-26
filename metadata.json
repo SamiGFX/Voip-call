@@ -1,0 +1,6 @@
+{
+  "name": "GlobeCall",
+  "description": "Worldwide VoIP calling platform for consumers and businesses with HD audio/video, AI call transcription, rates calculator, and enterprise management.",
+  "requestFramePermissions": ["microphone", "camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

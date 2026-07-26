@@ -1,0 +1,40 @@
+import { Voicemail } from '../types';
+
+export const INITIAL_VOICEMAILS: Voicemail[] = [
+  {
+    id: 'vm-1',
+    senderName: 'Amara Okafor',
+    senderNumber: '+234 1 234 5678',
+    avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80',
+    timestamp: '2026-07-25 15:10',
+    durationSeconds: 42,
+    isRead: false,
+    transcript: 'Hey! Amara here calling from Lagos Digital Hub. I wanted to confirm our joint webinar on low-latency VoIP in emerging markets next Thursday. Please call me back when you get a chance!',
+    sentiment: 'positive',
+    actionNeeded: true,
+  },
+  {
+    id: 'vm-2',
+    senderName: 'Carlos Mendez',
+    senderNumber: '+52 55 5281 9000',
+    avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop&q=80',
+    timestamp: '2026-07-24 10:30',
+    durationSeconds: 28,
+    isRead: true,
+    transcript: 'Hola! Calling regarding the enterprise seat license renewal for Mexico operations. All details are set in the billing portal.',
+    sentiment: 'neutral',
+    actionNeeded: false,
+  },
+  {
+    id: 'vm-3',
+    senderName: 'Global Carrier Alert',
+    senderNumber: '+1 (800) 555-0100',
+    avatar: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&auto=format&fit=crop&q=80',
+    timestamp: '2026-07-23 14:00',
+    durationSeconds: 19,
+    isRead: true,
+    transcript: 'Automated notification: Scheduled maintenance on US West SIP media proxy completed successfully. All lines operational.',
+    sentiment: 'positive',
+    actionNeeded: false,
+  },
+];
